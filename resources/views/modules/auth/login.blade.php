@@ -9,7 +9,7 @@
             <!-- Imagen encima del formulario -->
             <div class="text-center mb-4">
                 <img src="images/logo.jpeg" alt="logo" style="width: 150px; height: auto;">
-                
+
             </div>
 
             <!-- Tarjeta de Login centrada -->
@@ -24,7 +24,7 @@
                         <div class="mt-4">
                             <label for="email" class="form-label">Email</label>
                             <div class="col-sm-12">
-                                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                                <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="email">
                             </div>
                         </div>
 
@@ -32,7 +32,7 @@
                         <div class="mt-4">
                             <label for="password" class="form-label">Password</label>
                             <div class="col-sm-12">
-                                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+                                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña" name="password">
                             </div>
                         </div>
 

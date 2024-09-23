@@ -27,7 +27,7 @@ class AuthController extends Controller
             $item->password = Hash::make($request->password); //la contraseña se encripta
             $item->save();
             return to_route('login');
-       
+
     }
 
     public function logear(Request $request){
@@ -36,13 +36,14 @@ class AuthController extends Controller
         'password' =>$request->password
       ];
 
+      dd($request);
       if (!Auth::attempt($credentials)) {
            return to_route('home');
 
       }else {
         return to_route('login');
       }
-      
+
     }
 
     public function logout(){
